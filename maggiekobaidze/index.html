@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jovian Drift SOS</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
+    <iframe id="bg-frame" src="../styles/effect.html"></iframe>
     <form method="post" action="#">
+       
          <fieldset>
             <legend>Pilot Credentials</legend>
             <label for="pilot-name">Pilot Name</label>
@@ -14,7 +17,7 @@
             <input 
                    type="text" 
                    id="pilot-name" 
-                   name="pilot name" 
+                   name="pilot-name" 
                    placeholder="Enter name"
                    required 
                    >
@@ -24,7 +27,7 @@
            <input 
                   type="password"
                   id="access-code"
-                  name="access_code"
+                  name="access-code"
                   required
                   >
                   <br>
@@ -46,7 +49,7 @@
            <input
                   type="number"
                   id="Hull-Damage"
-                  name="hull_damage"
+                  name="hull-damage"
                   required
                   >
                   <br>
@@ -87,5 +90,6 @@
           <button type="submit">INITIATE TRANSMISSION</button>
           <button type="reset">RESET SYSTEM</button>
     </form>
+    <script src="../scripts/launch.js"></script>
 </body>
 </html>
